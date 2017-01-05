@@ -17,6 +17,7 @@ h1{
 	max-width: 100%;
 	font-weight: 100;
 	margin-bottom: 2px;
+	color:#BCBBBB;
 }
 
 h2{
@@ -24,24 +25,28 @@ h2{
 	font-size: xx-large;
 	margin-bottom: 2px;
 	margin-top: 2px;
+	color:#BCBBBB;
 }
 h3 {
 	margin-top: 2px;
 	margin-bottom: 1px;
 	font-weight: bold;
 	text-transform: uppercase;
+	color:#747704;
 }
 
 img {
 	max-width: 100%;
 	max-height: 100%;
+	margin-bottom: 1px;
 }
 
 a  {
 	margin-top: 2px;
+	color:#BCBBBB;
 }
 .xlarger{
-	font-size: 350%;
+	font-size: 300%;
 }
 .larger{
 	font-size: 200%;
@@ -54,6 +59,7 @@ a  {
 }
 
 .row{
+	position:relative;
 	width: 100%;
 	padding: 2px;
 	display: flex;
@@ -112,11 +118,17 @@ a  {
 	padding: 10px;
 }
 
+.img-bottom{
+	position: absolute;
+    left: 2px;
+    bottom: 1px;
+}
+
 .bar {
 	margin-top: 10px;
 	margin-bottom: 20px;
-	height: 5px;
-	background-color: gray;
+	height: 3px;
+	background-color: #BCBBBB;
 	max-width: 100%;
 	/*margin: 0 auto;*/
 }
