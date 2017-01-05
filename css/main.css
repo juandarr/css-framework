@@ -1,5 +1,5 @@
 * {
-	border: 1px solid red !important;
+	border: 0px solid red !important;
 }
 
 *{
@@ -7,6 +7,44 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	max-width: 100%;
+	font-weight: 100;
+	margin-bottom: 2px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: xx-large;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+h3 {
+	margin-top: 2px;
+	margin-bottom: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a  {
+	margin-top: 2px;
+}
+.xlarger{
+	font-size: 350%;
+}
+.larger{
+	font-size: 200%;
 }
 
 .grid {
@@ -17,8 +55,9 @@
 
 .row{
 	width: 100%;
-	margin-bottom: 20px;
+	padding: 2px;
 	display: flex;
+	text-align: center;
 }
 
 .col-1{
@@ -68,3 +107,30 @@
 .col-12{
 	width: 100%;
 }
+
+.col-gen{
+	padding: 10px;
+}
+
+.bar {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 5px;
+	background-color: gray;
+	max-width: 100%;
+	/*margin: 0 auto;*/
+}
+
+@media only screen and (max-width: 1000px)
+{
+.col-menu{
+	background-color: blue;
+}
+}
+@media only screen and (max-width: 600px)
+{
+.col-menu{
+	background-color:yellow;
+}
+}
+
